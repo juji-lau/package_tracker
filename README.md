@@ -3,7 +3,6 @@ This project is a simple Python command-line chatbot that helps users locate, tr
 It aims to simulate a package tracking assistant that guides users step-by-step through the process.
 
 <br>
-<br>
 
 # Setup/installation
 
@@ -25,7 +24,6 @@ cd package_tracker
 ```bash 
 python chatbot.py
 ```
-<br>
 <br>
 
 # Approach
@@ -53,7 +51,6 @@ My goal was to create a simple, engaging chatbot agent that users will feel like
 - Variations of yes/no are accepted (e.g. "yeah", "nah").
 - If a package cannot be found, the chatbot offers to connect to a live agent.
 
-<br>
 <br>
 
 # Examples: 
@@ -110,55 +107,3 @@ My program includes but are not limited to the following examples:
 <p align="center">
   <img src="images/junk_input.png" alt="Chatbot Screenshot" width="600"/>
 </p>
-
-
-
-
-Brief explanation of your approach
-Screenshots/examples of the chatbot in action
-Prepare your presentation (3-4 slides, PDF format)
-Send the GitHub link and presentation to [recruiter_email] by [deadline]
-
-*Note*:
-- When entering emails, this program only suppports emails like: <_>@gmail.com, 
-where <_> is replaced with a single letter. You can try enterying random stuff and see what happens though!
-If you're confused, check out `database.py` to see how the emails were generated.
-
-
-
-
-Challenges:
-- planning the flow
-- making it customer service friendly
-- deciding how much freedom to give the user (for error tolerance)
-- Deciding what options to offer in each scenario... e.g. it doesn't make sense to always allow the customer to get a refund
-
-
-- Test branches: 
-- ID: 
-    - Yes: CHECK
-    - NO: 
-        - Email:
-            - Yes: 
-
-            - No: -> OFFER ACTIONS
-                Product/Seller:
-                  - Yes:
-                  - No: 
-                      - Other:
-                        - Yes: CHECK
-                        - NO: 
-
-- If No:
-  - Offer help
-- If Yes:
-  - Offer help -> No
-  - Display order -> YES1
-  - Allow cancelations -> (check if it worked both short and long way)
-
----------------------------------------------------------------------------
-***************************************************************************
-...........................................................................
-===========================================================================
-Create a GitHub repository for your code
-Include a README.md with:
