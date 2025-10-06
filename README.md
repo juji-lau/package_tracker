@@ -4,6 +4,14 @@ It aims to simulate a package tracking assistant that guides users step-by-step 
 
 <br>
 
+# **[IMPORTANT]** Note to the Tester:
+This chatbot assumes that the user is entering an order that already exists in the database (i.e., the user knows what they ordered).
+To see how orders are generated, refer to `database.py`.
+
+Users cannot view the database contents through the chatbot itself; this models a realistic scenario where direct access to order data would be a security risk. In a real-world system, exposing internal database information to end users would constitute a breach of data confidentiality.
+
+<br>
+
 # Setup/installation
 
 1.) Clone the repository: 
